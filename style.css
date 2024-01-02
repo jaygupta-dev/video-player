@@ -1,0 +1,44 @@
+body{
+    background: url(VIDEOS/bgimage.jpg);
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+.controls{
+    height: 15%;
+    width: 400px;
+    background-color:whitesmoke;
+    margin: 10px auto;
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.controls>b{
+    height: 70px;
+    width: 70px;
+    cursor: pointer;
+    background-color:black;
+    color: white;
+    border-radius: 50%;
+    display: inline-block;
+    display: grid;
+    place-content: center;
+}
+.controls>b:hover{
+    background-color:rgb(76, 76, 76);
+    color: tomato;
+}
+.video video{
+    height: 100%;
+    padding: 5px;
+    border: 5px groove rgb(55, 54, 54);
+    border-radius: 5px;
+    background-color: rgba(245, 245, 245, 0.563);
+}
+.videolist{
+    height: 100px;
+    border: 4px solid whitesmoke;
+    margin: 5px;
+    border-radius: 5px;
+}
